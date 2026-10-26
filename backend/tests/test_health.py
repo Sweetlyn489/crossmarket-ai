@@ -14,7 +14,7 @@ def test_health_check_returns_ok():
     body = response.json()
     assert body["status"] == "ok"
     assert body["service"] == "CrossMarket AI API"
-    assert body["version"] == "0.1.0"
+    assert body["version"] == "0.2.0"
     assert "timestamp" in body
 
 
